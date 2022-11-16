@@ -37,3 +37,37 @@ formulário de contato em html, javascript e css
 				</ div >
 </body>
 </html>
+
+
+########################################################
+
+
+CSS
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ff95be;
+}
+input[type=text], select, textarea{
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+resize: vertical;
+}
+label {
+padding: 12px 12px 12px 0;
+display: inline-block;
+}
